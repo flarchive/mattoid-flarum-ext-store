@@ -1,0 +1,123 @@
+mattoid-store:
+  admin:
+    settings:
+      store-name: 商店名称
+      store-name-requirement: 商店名称会显示在首页菜单与标题栏
+      store-timezone: 时区设置
+      store-timezone-requirement: 设置时区。默认为 "Asia/Shanghai"
+      group-view: 允许用户组访问商店
+      add-store-goods: 添加商品
+      edit-store-goods: 修改商品
+      goods-status: 商品状态
+      goods-title: 商品名称
+      goods-code: 商品编码
+      goods-desc: 商品描述
+      goods-price: 价格
+      goods-stock: 库存
+      goods-discount: 折扣(%)
+      goods-discount-limit: 折扣时限
+      goods-discount-limit-unit: 单位
+      goods-type: 购买类型
+      goods-outtime: 商品有效期
+      goods-icon: 商品图标
+      goods-upload-button: 上传
+      goods-hide: 无权限时隐藏商品
+      goods-repeat: 允许重复购买
+      goods-edit: 编辑
+      goods-delete: 删除
+      goods-item-delete: 确定要删除该物品吗？
+      goods-item-status-0: 确定要上架该物品吗？
+      goods-item-status-1: 确定要下架该物品吗？
+      show-icon-button: 图库
+      goods-auto-deduction: 自动扣费
+      days: 天
+
+    error:
+      invalid-product: 无效商品
+      validate-fail: 购买物品失败
+
+  forum:
+    tital: 商店
+    button: 购买
+    buy-goods: 购买商品：{title}
+    buy-goods-fail: 商品退款：{title}
+    auto-deduction: 商品自动扣费：{title}
+    infinite: 无限
+    free: 免费
+    days: 天
+    ckeck-goods-outtime: 检查商品失效时间
+    cart: 购物车
+
+    error:
+      insufficient-inventory: 库存不足
+      user-balance-low: 用户余额不足
+      store-goods-non-existent: 商品不存在或已下架
+      validate-fail: 购买物品失败
+      cannot-purchase-repeatedly: 有效期内不允许重复购买
+      buy-goods-fail: 购买【{title}】失败
+      file-exist: 文件已存在
+      automatic-renewal: 未开启自动续费
+      invalid-product: 无效商品
+      automatic-renewal-fail: 自动续费失败【{message}】
+      goods-invalid-fail: 商品失效逻辑执行失败【{message}】
+      goods-invalid-event-fail: 商品失效事件推送失败【{message}】
+      cart-no-use: 该商品没有使用功能
+      cart-use-fail: 商品使用失败
+
+  lib:
+    item-status-all: 全部商品状态
+    item-status-up: 上架
+    item-status-down: 下架
+    item-type-all: 全部购买类型
+    item-type-permanent: 永久有效
+    item-type-limit: 限时有效
+    item-limit-unit-days: 天
+    item-limit-unit-hour: 小时
+    item-limit-unit-minute: 分钟
+    item-limit-unit-second: 秒
+
+    item-cart-status-all: 全部支付状态
+    item-cart-status-0: 未支付
+    item-cart-status-1: 已支付
+    item-cart-status-2: 已失效
+
+    item-cart-type-all: 全部购买类型
+    item-cart-type-permanent: 永久有效
+    item-cart-type-limit: 限时有效
+
+    item-cart-auto-deduction-all: 全部续期类型
+    item-cart-auto-deduction-0: 不续期
+    item-cart-auto-deduction-1: 自动续期
+
+    item-id: ID
+    item-desc: 商品描述
+    item-title: 商品名称
+    item-status: 商品状态
+    item-status-0: 下架
+    item-status-1: 上架
+    item-price: 价格
+    item-stock: 库存
+    item-discount: 折扣
+    item-discount_limit: 折扣期限
+    item-type: 购买类型
+    item-created-at: 添加时间
+
+    list-empty: 这里空空如也
+    list-load-more: 更多
+
+    item-invalid: 自动续费
+
+    item-cart-title: 商品名称
+    item-cart-status: 支付状态
+    item-cart-price: 续费价格
+    item-cart-pay-amt: 支付金额
+    item-cart-type: 商品类型
+    item-cart-outtime: 到期时间
+    item-cart-auto-deduction: 自动续费
+    item-cart-created: 购买时间
+
+    item-cart-button-use: 使用
+    item-cart-button-cancel: 取消
+
+    cancel: 取消
+    confirm: 确定
